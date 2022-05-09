@@ -1,0 +1,22 @@
+.wp-block-slider-zuiderkrib-slider .block-editor-block-list__layout {
+    display: flex;
+    flex-wrap: wrap;
+
+    .wp-block-slider-slide {
+        flex-basis: 50%;
+        margin-top: 0;
+        margin-bottom: 1em;
+
+        .block-editor-block-list__layout > * {
+            margin: 0;
+        }
+        
+        &:nth-child(2n) {
+            padding-left: 0.5em;
+        }
+
+        &:nth-child(2n + 1) {
+            padding-right: 0.5em;
+        }
+    }
+}

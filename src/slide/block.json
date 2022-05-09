@@ -1,0 +1,13 @@
+{
+	"apiVersion": 2,
+	"name": "slider/slide",
+	"title": "slide",
+	"category": "media",
+	"icon": "cover-image",
+	"parent": ["slider/zuiderkrib-slider"],
+	"description": "Add a slide to the slider",
+	"support": {
+		"html": false
+	},
+	"textdomain": "zuiderkrib-slide"
+}

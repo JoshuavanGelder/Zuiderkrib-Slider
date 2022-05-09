@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "slider/zuiderkrib-slider",
+	"version": "0.1.0",
+	"title": "Zuiderkrib Slider",
+	"category": "media",
+	"icon": "embed-photo",
+	"description": "Slider voor images. (requires blossom feminine theme)",
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"textdomain": "zuiderkrib-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
